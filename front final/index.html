@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="styles.css">
+
+
+
+</head>
+<body>
+
+
+    <div class="for-navbar">
+        <div class="navbar">
+            <h1>Final</h1>
+            <div class="nav-content">
+                <a href="#">Posts</a>
+                <a href="#">Comments</a>
+                <a href="#">Photos</a>
+                <a href="#">users</a>
+            </div>
+            <button class="login">Login</button>
+
+        </div>
+    </div>
+
+
+
+    <div class="users-title">
+       <h1>Users</h1>
+    </div>
+
+    <div class="main-users">
+        <div class="users-content">
+        
+        </div>
+    </div>
+
+
+
+
+
+    <div class="newpost">
+        <div class="add" >
+            <h1 >Add new post</h1>
+
+            <input type="text" class="inp user-id" disabled>
+
+            <input type="text" class="inp title">
+
+            <div style="width: 250px; display: flex; flex-direction: column;">
+                <label for="text">text</label>
+                <textarea class="body"  id="text" cols="3" rows="3"></textarea>
+            </div>
+            
+            <div>
+                <button class="submit" type="submit" onclick="postData()">Submit</button>
+            </div>
+            
+
+        </div>
+    </div>
+    
+
+
+    <div class="users-title">
+        <h1>Photos</h1>
+     </div>
+
+    <div class="container">
+        
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
